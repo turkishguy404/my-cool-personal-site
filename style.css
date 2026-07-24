@@ -1,4 +1,21 @@
 body{
      text-align: center;
-     background-color: aqua;
+     background-color: gray;
+     font-family: 'Times New Roman', Times, serif;
+     align-content: center;
+     min-height: 100;
+     margin: 0;
+}
+a:link{
+     color:black;
+}
+b:link{
+     color:black;
+}
+.navbar{
+     position: absolute;
+     top: 0;
+     text-align: left;
+     width: 100%;
+     margin: 20px;
 }
