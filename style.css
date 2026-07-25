@@ -1,21 +1,31 @@
 body{
-     text-align: center;
-     background-color: gray;
+     text-align: left;
+     background-color: rgba(182, 178, 178, 0.937);
      font-family: 'Times New Roman', Times, serif;
-     align-content: center;
      min-height: 100;
      margin: 0;
 }
 a:link{
-     color:black;
+     color:white;
 }
-b:link{
-     color:black;
+header{
+     text-align: center;
+     background-color: rgb(90, 132, 170);
+     margin: 0px;
+     font-size: 24px;
+     color:azure;
+     padding: 20px;;
 }
-.navbar{
-     position: absolute;
-     top: 0;
-     text-align: left;
-     width: 100%;
-     margin: 20px;
+nav{
+     float: left;
+     padding:20px;
+     background-color: gray;
+     width: 15%;
+     height: 100%;
+}
+footer {
+  background-color: #777;
+  padding: 100px;
+  text-align: left;
+  color: white;
 }
