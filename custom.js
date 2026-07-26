@@ -7,12 +7,10 @@ async function getGitHubUser(username) {
     }
     
     const user = await response.json();
-    console.log("Kullanıcı Adı:", user.login);
-    console.log("Profil Resmi:", user.avatar_url);
-    console.log("Repo Sayısı:", user.public_repos);
-    document.getElementById("demo").innerHTML = user.login;
-    document.getElementById("demo1").innerHTML = avatar_url;
-    document.getElementById("demo2").innerHTML = user.public_repos;
+    console.log("User Name:", user.login);
+    console.log("Repo :", user.public_repos);
+    document.getElementById("demo").innerHTML = "Name: " + user.login;
+    document.getElementById("demo2").innerHTML = "Number of repo's: " + user.public_repos;
   } catch (error) {
     console.error("Hata:", error.message);
   }
